@@ -12,22 +12,22 @@
 
     <style>
         body {
-            background: linear-gradient(to right, #ff66b2, #4b0082); 
-            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background: linear-gradient(to right, #ff66b2, #4b0082);
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            overflow: hidden; 
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh; 
+            height: 100vh;
             position: relative;
         }
 
         .bubble {
             position: absolute;
-            background-color: rgba(255, 255, 255, 0.5); 
+            background-color: rgba(255, 255, 255, 0.5);
             border-radius: 50%;
-            animation: float 4s infinite; 
+            animation: float 4s infinite;
         }
 
         .bubble1 {
@@ -76,31 +76,34 @@
 
         .card {
             text-align: center;
-            padding: 10px; 
-            background-color: rgba(255, 255, 255, 0.2); 
-            border-radius: 20px; 
-            border: none; 
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-            width: 600px; 
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 400px;
         }
 
-        .card h2, .card p {
-            color: #ffffff; 
-            font-size: 30px; 
+        .card h2,
+        .card p {
+            color: #8A2BE2;
+            font-size: 30px;
         }
 
         .form-label {
-             font-size: 20px; 
+            font-size: 20px;
+            color: #8A2BE2;
         }
 
         .form-control {
-            font-size: 18px; 
+            font-size: 18px;
+            color: #8A2BE2;
         }
 
         .btn-primary {
             background-color: #8A2BE2;
             border-color: #8A2BE2;
-            color: #FFFFFF;
+            color: #ffffff;
             font-size: 20px;
             padding: 10px 20px;
         }
@@ -108,18 +111,12 @@
         .btn-primary:hover {
             background-color: #800080;
             border-color: #800080;
-            color: #FFFFFF;
+            color: #ffffff;
         }
     </style>
 </head>
 
-<body class="background-radial-gradient">
-
-    <div class="bubble bubble1"></div>
-    <div class="bubble bubble2"></div>
-    <div class="bubble bubble3"></div>
-    <div class="bubble bubble4"></div>
-    <div class="bubble bubble5"></div>
+<body>
 
     <section class="text-center">
         <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
